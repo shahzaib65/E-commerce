@@ -1,6 +1,20 @@
 {
     "routes": [
-      { "handle": "filesystem" },
-      { "src": "/.*", "dest": "/index.html" }
+     {
+        "src": "/product",
+        "dest": "/"
+     },
+     {
+        "src": "/categories",
+        "dest": "/"
+     },
+     {
+        "src": "/productCategory",
+        "dest": "/" 
+     },
+     {
+        "src": "/productDetails",
+        "dest": "/"
+     }
     ]
   }
