@@ -1,20 +1,5 @@
 {
-    "routes": [
-     {
-        "src": "/product",
-        "dest": "/"
-     },
-     {
-        "src": "/categories",
-        "dest": "/"
-     },
-     {
-        "src": "/productCategory",
-        "dest": "/" 
-     },
-     {
-        "src": "/productDetails",
-        "dest": "/"
-     }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
